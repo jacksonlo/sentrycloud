@@ -10,7 +10,7 @@ sentrycloudtoken
 
 Example: `askdjalsjdklajsdkjasd`
 
-Generate this from sentry.io
+Generate this from sentry.io: https://sentry.io/settings/account/api/auth-tokens/
 
 ### Usage via CLI
 Example:
