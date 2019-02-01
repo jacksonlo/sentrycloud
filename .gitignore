@@ -1,0 +1,5 @@
+*.cache
+__pycache__
+static/*
+!static/gradient.png 
+.DS_STORE
