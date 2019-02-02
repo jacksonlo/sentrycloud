@@ -19,7 +19,7 @@ Generate this from sentry.io: https://sentry.io/settings/account/api/auth-tokens
 #### field
 ```
 Values: [culprit, filename, title, type]
-Default: `title`
+Default: title
 ```
 The field from sentry to generate the wordcloud with.
 
