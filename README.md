@@ -1,7 +1,7 @@
-## Wordcloud for Sentry exception issues
+# Wordcloud for Sentry exception issues
 Quick and short hackday project that generates a wordcloud on fields from sentry issues from the Sentry.io API.
 
-### Required environment variables:
+## Required environment variables:
 ```
 sentryurl
 Example: https://sentry.io/api/0/projects/{PROJECT}/app/issues/?query=is%3Aunresolved+is%3Aunassigned&sort=date&environment=production
@@ -11,7 +11,7 @@ sentrycloudtoken
 Example: askdjalsjdklajsdkjasd
 Generate this from sentry.io: https://sentry.io/settings/account/api/auth-tokens/
 ```
-### Usage via CLI
+## Usage via CLI
 1. `pip install -r requirements.txt`
 2. `python main.py --field culprit --file super.png --verbose True --cache False`
 
@@ -46,7 +46,7 @@ Default: False
 Caches the result from the sentry.io API call to local file. False will not save the result to cache as well as remove
 existing cache results.
 
-### Usage via browser
+## Usage via browser
 1. `pip install -r requirements.txt`
 2. `./run` to run webserver
 
